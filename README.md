@@ -18,17 +18,21 @@
 1- food
 
 ```
+data should be:
 let obj = {
 type: 'banana',
 color: 'yelow',
 };
 
-    http://localhost:3003/api/v1/food
 ```
+
+**example hit :**
+[get food data](https://ahmdosbh-basic-api-server-prod.herokuapp.com/api/v1/food)
 
 2- clothes
 
 ```
+data should be:
 
 let obj = {
 type: 'T-shirt',
@@ -38,23 +42,24 @@ http://localhost:3003/api/v1/clothes
 
 ```
 
+**example hit :**
+[get food data](https://ahmdosbh-basic-api-server-prod.herokuapp.com/api/v1/clothes)
+
 - Returns : json with requested data
 
 ```
 
 {
-"domain": "https://ahmadosbeh-basic-express-serve.herokuapp.com/",
+"domain": "https://ahmdosbh-basic-api-server-prod.herokuapp.com/",
 "status": "running",
 "port": 3003
 }
 
 ```
 
-<example hit : https://ahmadosbeh-basic-express-serve.herokuapp.com/person?name=ahmad>
-
 # PR link
 
-**https://github.com/Ahmad-AbuOsbeh/basic-express-server/pull/1**
+[PR link](https://github.com/Ahmad-AbuOsbeh/basic-api-server/pull/1)
 
 **Tests**
 
@@ -66,7 +71,7 @@ http://localhost:3003/api/v1/clothes
 
 <br>
 
-![UML-lab2](images/UML-lab2.jpg)
+![UML-lab03](images/UML-lab03.jpg)
 
 ```
 
